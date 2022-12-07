@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, #a62e92, #a5489f, #a55da9, #a56fb2, #a680b9, #a38dc1, #a199c8, #a2a4cc, #9eafd2, #9eb9d6, #a2c2d8, #a9cbd9);
+    background-repeat: no-repeat;
+}
+
+.letter {
+    font-family: 'Kalam', 'cursive';
+    font-size: 2.5em;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 15px rgb(197,77,102);
+}
+
+.p-top {
+    padding-top: 2rem;
+}
+
+.center {
+    width: 100%;
+    display: inline-flex;
+    transform: translate(0%, 50%);
+    justify-content: space-around;
+}
+
+.center-div {
+    display: inline-flex;
+    width: 50%;
+    justify-content: space-evenly;
+    transform: translate(50%, 300%);
+}
+
+.letter-btn {
+    font-family: 'Indie Flower', "cursive";
+    font-size: 1em;
+}
+
+.btn {
+    font-family: 'Mukta', sans-serif;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px rgb(197,77,102);
+}
+
+.btn:hover {
+    background-color: rgba(197, 77, 101, 0.726);
+    color: #3d2e58;
+}
